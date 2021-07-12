@@ -27,7 +27,7 @@ public class FileOperation{
 				System.out.println("Directory is created...");
 			}
 			else {
-				System.out.println("Directory is not created...");
+				System.out.println("Directory is already created...");
 			}
 			fos = new FileOutputStream(file+"\\"+fileName, true);
 	        System.out.println("When you give >e and press enter, your file writing process will be end.");
